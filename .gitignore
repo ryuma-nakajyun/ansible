@@ -1,38 +1,60 @@
-# ===== Build artifacts =====
-build/
-*.o
-*.out
-*.exe
-*.a
-*.so
-*.dll
+# ===== Ansible =====
 
-# ===== Logs =====
-log/
-*.log
+# Vault password
+.vault_pass
+.vault_pass.txt
 
-# ===== Editor / IDE =====
-# .vscode/
-# *.code-workspace
-
-# ===== OS files =====
-.DS_Store
-Thumbs.db
-
-# ===== Secrets / Keys =====
+# Secrets
 *.pem
 *.key
 *.crt
 *.p12
 *.der
 
-# ===== Temporary files =====
+# Ansible retry files
+*.retry
+
+# Logs
+log/
+logs/
+*.log
+
+# Temporary files
 *.tmp
 *.swp
+*.swo
 *.bak
 
-# ===== CMake (もし使う場合) =====
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
+# Editor / IDE
+.vscode/
+.idea/
+*.iml
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache (Ansible uses Python)
+__pycache__/
+*.pyc
+*.pyo
+
+# Molecule
+.molecule/
+
+# Coverage / Test
+coverage/
+htmlcov/
+.cache/
+
+# Environment
+.env
+.venv/
+venv/
+
+# Collections (必要に応じて)
+collections/
+
+# Downloaded roles (必要に応じて)
+roles/
