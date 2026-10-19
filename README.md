@@ -14,6 +14,8 @@
 ## ディレクトリ構成
 ```text 
 training_00
+training_01
+training_02s
 ```
 
 ## 学習内容
@@ -23,7 +25,7 @@ training_00
 - 前提条件
 - ansibleがインストールされていること  
 ```text 
--ansible --version
+ansible --version
 sudo apt install ansible-core
 ```
 
@@ -36,8 +38,8 @@ sudo apt install ansible-core
 ## memo
 - 実行コマンド
 ```text 
- - ansible-playbook  hello.yml
- - ansible-playbook -i localhost, -c local hello.yml
+ansible-playbook  hello.yml
+ansible-playbook -i localhost, -c local hello.yml
 ```
 
 - shellsriptの自動化とどのように違うのか？
