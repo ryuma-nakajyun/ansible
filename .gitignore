@@ -1,5 +1,4 @@
 # ===== Ansible =====
-
 # Vault password
 .vault_pass
 .vault_pass.txt
@@ -58,3 +57,6 @@ collections/
 
 # Downloaded roles (必要に応じて)
 roles/
+
+# txt
+.txt
