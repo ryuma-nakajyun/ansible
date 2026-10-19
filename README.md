@@ -15,7 +15,7 @@
 ```text 
 training_00
 training_01
-training_02s
+training_02
 ```
 
 ## 学習内容
