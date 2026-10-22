@@ -24,7 +24,7 @@ training_02
 ## 実行方法
 - 前提条件
 - ansibleがインストールされていること  
-```text 
+```bash 
 ansible --version
 sudo apt install ansible-core
 ```
@@ -37,7 +37,7 @@ sudo apt install ansible-core
 
 ## memo
 - 実行コマンド
-```text 
+```bash
 ansible-playbook  hello.yml
 ansible-playbook -i localhost, -c local hello.yml
 ```
