@@ -11,11 +11,19 @@
 ## 目的
 - ansible の基礎構文の習得
 
-## ディレクトリ構成
-```text 
-training_00
-training_01
-training_02
+## Project Structure
+```bash
+tree ansible/
+```
+
+```text
+ansible/
+├── README.md
+├── docs
+│   └── memo.md
+├── hello.yaml
+└── hello.yml
+2 directories, 4 files
 ```
 
 ## 学習内容
